@@ -1,0 +1,7 @@
+{% extends "food/base.html" %}
+{% block body %}
+<form action="" method="POST">
+    {% csrf_token %}
+    <button type="submit">Confirm</button>
+</form>
+{% endblock %}
